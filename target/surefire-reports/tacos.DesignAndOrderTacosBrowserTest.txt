@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: tacos.DesignAndOrderTacosBrowserTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 31.352 s <<< FAILURE! - in tacos.DesignAndOrderTacosBrowserTest
+testDesignATacoPage_InvalidOrderInfo  Time elapsed: 10.58 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 2
+but was : 0
+	at tacos.DesignAndOrderTacosBrowserTest.assertDesignPageElements(DesignAndOrderTacosBrowserTest.java:98)
+	at tacos.DesignAndOrderTacosBrowserTest.testDesignATacoPage_InvalidOrderInfo(DesignAndOrderTacosBrowserTest.java:71)
+
+testDesignATacoPage_HappyPath  Time elapsed: 10.316 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 2
+but was : 0
+	at tacos.DesignAndOrderTacosBrowserTest.assertDesignPageElements(DesignAndOrderTacosBrowserTest.java:98)
+	at tacos.DesignAndOrderTacosBrowserTest.testDesignATacoPage_HappyPath(DesignAndOrderTacosBrowserTest.java:48)
+
+testDesignATacoPage_EmptyOrderInfo  Time elapsed: 10.337 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 2
+but was : 0
+	at tacos.DesignAndOrderTacosBrowserTest.assertDesignPageElements(DesignAndOrderTacosBrowserTest.java:98)
+	at tacos.DesignAndOrderTacosBrowserTest.testDesignATacoPage_EmptyOrderInfo(DesignAndOrderTacosBrowserTest.java:60)
+
